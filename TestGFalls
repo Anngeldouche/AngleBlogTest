@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestPageCoool</title>
+    <style>
+      
+    body {
+      background-color: pink;
+    }
+       img {
+      width: 100%; /* Ajuste la largeur de l'image à 100% de l'écran */
+      height: auto; /* Garde les proportions de l'image */
+    }
+      .gifmabel {
+  width: 30%; /* Réduit la largeur à 30% de l'écran */
+  height: auto; /* Garde les proportions de l'image */
+  position: absolute; /* Permet de positionner l'image de manière précise */
+  top: 10px; /* Décalage de 10 pixels depuis le haut */
+  right: 10px; /* Décalage de 10 pixels depuis la droite */
+}
+      iframe { 
+  width: 40%;
+  height: auto; /* Garde les proportions de l'image */
+  position: absolute; /* Permet de positionner l'image de manière précise */
+  top: 80px; /* Décalage de 10 pixels depuis le haut */
+  left: 8px; /* Décalage de 10 pixels depuis la gauche */ 
+}
+ .mon-texte {
+    font-family: 'Arial', sans-serif; /* Change la police ici */
+      color: purple; /* Change la couleur du texte */
+      font-size: 18px; /* Change la taille de la police */
+      text-align: left; /* Aligne le texte à gauche */
+      margin-left: 430px; /* Décale le texte de 20 pixels vers la droite */
+      margin-right: 180px;
+      margin-top: 15px; /* Décalage de 10 pixels depuis le haut */
+    }
+
+
+  </style>
+  </head>
+<body>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34e4f613-8726-4024-a293-99bcd034a7ba/d9g7yeb-eb8be744-f38f-45d5-ba80-18954090c9a6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM0ZTRmNjEzLTg3MjYtNDAyNC1hMjkzLTk5YmNkMDM0YTdiYVwvZDlnN3llYi1lYjhiZTc0NC1mMzhmLTQ1ZDUtYmE4MC0xODk1NDA5MGM5YTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.K29IUMtbqqhEEJQ1ZhRQyrSpZxGFa1U_CXaADGgvo5k" alt="Description de l'image">
+  
+  <img src="https://media.tenor.com/PM6E6cIHE8IAAAAi/gravity-falls-dipper.gif" alt="gifmabel" class="gifmabel">
+    <p class="mon-texte">Test, test, un, deux, un, deux. Je m'entraine à faire de l'html et je suis fan de gravity falls donc j'uilise allègrement leur image. <br>
+Un peu comme un site fan comme a l'époque UwU <br> <br>
+Bref koooool hihi.</p>
+   <iframe 
+src="https://www.youtube.com/embed/X2DUpDxFJyg?si=BOTRY3nkiP6otl6T" 
+width="560" height="315"  
+style="border: none;"  <!-- Ceci remplace frameborder="0" -->
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen></iframe>
+
+
+</body>
+</html>
